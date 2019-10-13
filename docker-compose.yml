@@ -18,7 +18,7 @@ services:
     environment:
       NODE_ENV: development
     env_file:
-      - .env
+      - API/.env
 
   db:
     container_name: test_rankmyapp_db
@@ -34,7 +34,7 @@ services:
       MONGODB_PASS: root
       MONGO_DATA_DIR: /data/db
     env_file:
-      - .env
+      - API/.env
 
 networks:
   db:
