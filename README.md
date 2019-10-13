@@ -23,7 +23,7 @@ Workspace do teste técnico realizado para o teste técnico da [RankMyApp](https
     - `MONGODB_DATABASE`: Nome do banco utilizado pela aplicação.
     - `NODE_ENV`: Ambiente da aplicação.
     - `SECRET`: Chave utilizada pelo JWT.
-    - `EBAY_APP_NAME`: Chave da aplicação no eBay. Se não tiver uma conta no eBay, faça [cadastro](https://developer.ebay.com/signin?tab=register). Depois de logado, [solicite sua chave](https://developer.ebay.com/my/keys)
+    - `EBAY_APP_NAME`: Chave da aplicação no eBay. Se não tiver uma conta de desenvolvedor no eBay, faça [cadastro](https://developer.ebay.com/signin?tab=register). Depois de logado, [solicite sua chave](https://developer.ebay.com/my/keys)
     - `EBAY_GLOBAL_ID`: Lugar onde será feita a busca no eBay. Você pode ver uma lista de lugares [aqui](https://developer.ebay.com/DevZone/finding/CallRef/Enums/GlobalIdList.html)
 2. Executar a aplicação
     > docker-compose up
