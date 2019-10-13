@@ -30,4 +30,4 @@ Workspace do teste técnico realizado para o teste técnico da [RankMyApp](https
 
 ## Documentação
 Você pode visualizar a documentação de cada parte do projeto em seus repositórios.
-(API)[https://github.com/wricke/rankmyapp-api]
+[API](https://github.com/wricke/rankmyapp-api)
