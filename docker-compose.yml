@@ -20,6 +20,24 @@ services:
     env_file:
       - API/.env
 
+  webapp:
+    container_name: test_rankmyapp_webapp
+    image: node:10
+    depends_on:
+      - api
+    networks:
+      - webapp
+    ports:
+      - "80:80"
+    command: sh -c "npm install && npm start"
+    working_dir: /app
+    volumes:
+      - ./webapp:/app
+    environment:
+      NODE_ENV: development
+    env_file:
+      - webapp/.env
+
   db:
     container_name: test_rankmyapp_db
     image: mongo
@@ -38,6 +56,7 @@ services:
 
 networks:
   db:
+  webapp:
 
 volumes:
   db_data:

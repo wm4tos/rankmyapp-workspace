@@ -1,3 +1,6 @@
 [submodule "API"]
 	path = API
 	url = https://github.com/wricke/rankmyapp-api
+[submodule "webapp"]
+	path = webapp
+	url = https://github.com/wricke/rankmyapp-webapp
