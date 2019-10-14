@@ -6,9 +6,16 @@ Workspace do teste técnico realizado para o teste técnico da [RankMyApp](https
 - Docker compose
 
 ## Executando o projeto
-    docker-compose up
+1. Clonando o projeto
+
+    `git clone https://github.com/wricke/rankmyapp-workspace.git -r`
+
+2. Executando
+
+    `docker-compose up`
 
 ## Documentação
 Você pode visualizar a documentação de cada parte do projeto em seus respectivos repositórios.
 
 [API](https://github.com/wricke/rankmyapp-api)
+[webapp](https://github.com/wricke/rankmyapp-webapp)
