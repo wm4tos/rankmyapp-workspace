@@ -8,7 +8,7 @@ Workspace do teste técnico realizado para o teste técnico da [RankMyApp](https
 ## Executando o projeto
 1. Clonando o projeto
 
-    `git clone https://github.com/wricke/rankmyapp-workspace.git -r`
+    `git clone --recursive https://github.com/wricke/rankmyapp-workspace.git`
 
 2. Executando
 
